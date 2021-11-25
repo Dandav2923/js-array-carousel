@@ -6,6 +6,17 @@
     object-fit: cover;
 }
 
+.col-4 .box-image.active img{
+    opacity: 1 !important;
+    border: 10px solid white;
+}
+
 .col-8 img.active {
-    display: block;
+    display: block !important;
+}
+#up {
+    z-index: 2;
+}
+#down {
+    z-index: 2;
 }
