@@ -26,3 +26,8 @@ imagesBoxBig[imagesBoxBig.length - 1].classList.add('last');
 
 const up = document.querySelector('.col-4 .box-up');
 const down =document.querySelector('.col-4 .box-down');
+
+up.addEventListener('click', function() {
+    
+}
+)
