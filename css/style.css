@@ -1,4 +1,11 @@
-.box-image{
-    /* background-color: aqua; */
+.box-image {
     height: 20%;
+}
+
+.col-4 .box-image img {
+    object-fit: cover;
+}
+
+.col-8 img.active {
+    display: block;
 }
