@@ -1,3 +1,6 @@
+.bg-grey {
+    background-color: grey;
+}
 .box-image {
     height: 20%;
 }
@@ -13,6 +16,7 @@
 
 .col-8 img.active {
     display: block !important;
+    object-fit: cover;
 }
 #up {
     z-index: 2;
